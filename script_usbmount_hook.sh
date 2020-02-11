@@ -3,7 +3,7 @@
 sleep 10
 
 execute_scripts() {
-  sh /mnt/sda1/start-clash.sh
+  sh /mnt/ASUS/start-clash.sh
 }
 
 wait_until_system_ready() {
