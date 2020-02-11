@@ -1,3 +1,3 @@
 #!/bin/sh
 
-sh /mnt/sda1/shutdown-clash.sh
+sh /mnt/ASUS/shutdown-clash.sh
