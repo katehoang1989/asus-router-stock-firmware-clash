@@ -6,7 +6,7 @@ clear_iptables_rules() {
   	/usr/sbin/iptables -t nat -D PREROUTING -j CLASH
   	/usr/sbin/iptables -t nat -F CLASH
   	/usr/sbin/iptables -t nat -X CLASH
-  	/usr/sbin/iptables -t nat -D PREROUTING -p udp -m udp --dport 53 -j DNAT --to-destination 192.168.50.1:12358
+  	/usr/sbin/iptables -t nat -D PREROUTING -p udp -m udp --dport 53 -j DNAT --to-destination 192.168.11.1:12358
   fi
 }
 
